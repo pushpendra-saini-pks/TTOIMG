@@ -4,15 +4,15 @@ import base64
 from PIL import Image 
 import io
 
-st.title("Text to img generater")
-st.write("Enter a text description to generate an Image")
+st.title("IMG AI-Artist")
+st.write("Turning Words into Art with AI")
 
 
 # Add siderbar for configuration 
 st.sidebar.header("Configuration")
 api_url = st.sidebar.text_input(
     "Backend API URL",
-    "https://aa9a-35-231-198-213.ngrok-free.app" # you will replace this with the ngrok url from colab
+    "https://da6b-34-168-158-3.ngrok-free.app" # you will replace this with the ngrok url from colab
 )
 
 
